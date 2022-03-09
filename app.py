@@ -1,16 +1,3 @@
-# import requests
-# from flask import Flask, render_template
-
-# app = Flask(__name__)
-# @app.route("/",methods=["GET","POST"])
-# def Index():
-#     return render_template("index.html") 
-
-
-# if __name__ == '__main__':
-#     app.debug = True
-#     app.run()
-
 import requests
 from flask import Flask, render_template
 from flask import request as req
